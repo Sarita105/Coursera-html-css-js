@@ -1,0 +1,53 @@
+@media (min-width: 992px) {
+  header {
+  text-align: center;
+}
+section {
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+    border: 5px solid red;
+    position: relative;
+  }
+  div {
+    position:absolute;
+    right: 0;
+    height: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  header {
+    text-align: center;
+  }
+  section {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    border: 5px solid red;
+    position: relative;
+  }
+  div {
+    position:absolute;
+    right: 0;
+    height: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    text-align: center;
+  }
+  section {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    border: 5px solid red;
+    position: relative;
+  }
+  div {
+    position:absolute;
+    right: 0;
+    height: 20px;
+  }
+}
