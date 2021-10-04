@@ -6,13 +6,20 @@ section {
     float: left;
     width: 33.33%;
     box-sizing: border-box;
-    border: 5px solid red;
+    border: 1px solid black;
     position: relative;
+    background-color:darkkhaki;
+  }
+  article {
+    margin-top: 20px;
   }
   div {
-    position:absolute;
+    text-align: end;
     right: 0;
     height: 20px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: crimson;
   }
 }
 
@@ -24,13 +31,21 @@ section {
     float: left;
     width: 50%;
     box-sizing: border-box;
-    border: 5px solid red;
+    border: 1px solid black;
     position: relative;
+    background-color: darkkhaki;
+    justify-content: space-around;
+  }
+  article {
+    margin-top: 20px;
   }
   div {
-    position:absolute;
+   text-align: end;
     right: 0;
     height: 20px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: crimson;
   }
 }
 
@@ -42,12 +57,19 @@ section {
     float: left;
     width: 100%;
     box-sizing: border-box;
-    border: 5px solid red;
+    border: 1px solid black;
     position: relative;
+    background-color: darkkhaki;
+  }
+  article {
+    margin-top: 20px;
   }
   div {
-    position:absolute;
+    text-align: end;
     right: 0;
     height: 20px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: crimson;
   }
 }
